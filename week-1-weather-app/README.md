@@ -69,5 +69,6 @@ Edit the data/cities.json file to add or remove cities
 
 5. Run the application:
 --bash
-python src/weather_dashboard.py
+python src/__init__.py
+
 
