@@ -3,11 +3,11 @@ from datetime import datetime
 import json
 
 def show_weather_data(data):
-    main = data.get('main') or data['list'][0]['main']
+    value = data.get('main') or data['list'][0]['main']
 
-    temp = main['temp']
-    feels_like = main['feels_like']
-    humidity = main['humidity']
+    temp = value['temp']
+    feels_like = value['feels_like']
+    humidity = value['humidity']
     description = data['weather'][0]['description'] if "weather" in data else data['list'][0]['weather'][0]['description']
 
     print(f"Temperature: {temp}°F")
@@ -16,7 +16,6 @@ def show_weather_data(data):
     print(f"Conditions: {description}")
 
 def main():
-
     cities = json.loads(open('./data/cities.json').read())['cities']
 
     weather = WeatherDashboard()

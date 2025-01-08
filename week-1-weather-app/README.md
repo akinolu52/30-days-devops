@@ -15,7 +15,7 @@ This project is a Weather Data Collection System that demonstrates core DevOps p
 ## Features
 - Fetches real-time weather data for multiple cities
 - Displays temperature (°F), humidity, and weather conditions
-- Automatically stores weather data in AWS S3
+- Automatically store weather data in AWS S3
 - Supports multiple cities tracking
 - Timestamps all data for historical tracking
 
@@ -70,5 +70,3 @@ Edit the data/cities.json file to add or remove cities
 5. Run the application:
 --bash
 python src/__init__.py
-
-
