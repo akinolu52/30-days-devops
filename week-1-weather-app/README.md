@@ -2,6 +2,8 @@
 
 Day 1: Building a weather data collection system using AWS S3 and OpenWeather API
 
+You can watch it on [YouTube](https://youtu.be/MCRl5zGPhk4)
+
 ## Project Overview
 This project is a Weather Data Collection System that demonstrates core DevOps principles by combining:
 - External API Integration (OpenWeather API)
@@ -70,3 +72,5 @@ Edit the data/cities.json file to add or remove cities
 5. Run the application:
 --bash
 python src/__init__.py
+
+
