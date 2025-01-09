@@ -52,7 +52,7 @@ game-day-notifications/
 ### **Clone the Repository**
 ```bash
 git clone https://github.com/akinolu52/30-days-devops.git
-cd week-2-notification-system
+cd day-2-notification-system
 ```
 
 ### **Create an SNS Topic**

@@ -53,7 +53,7 @@ git clone https://github.com/akinolu52/30-days-devops.git
 
 2. Change directory:
 --bash
-cd week-1-weather-app
+cd day-1-weather-app
 
 3. Install dependencies:
 --bash
