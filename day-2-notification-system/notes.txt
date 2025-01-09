@@ -1,7 +1,8 @@
 create a sns topic
 create a policy and attach it to the sns topic
 create a role that handles the sns topic via lambda (add the policy and the lambda basic execution role)
-create a lambda function that sends a message to the sns topic (make sure you add the execution role to the lambda function and set the environment variable for the sns topic arn)
+create a lambda function that sends a message to the sns topic
+(make sure you add the execution role to the lambda function and set the environment variable for the sns topic arn)
 test the lambda function
 create an eventbridge schedule that triggers the lambda function every XX minutes/hours
 
