@@ -18,7 +18,7 @@ This project is an alert system that sends real-time NBA game day score notifica
 ---
 
 ## **Technical Architecture**
-![nba_API](/screenshots/layout.png)
+![nba_API](https://raw.githubusercontent.com/akinolu52/30-days-devops/6d8c05e8244f6ec15119fa42f9e4829aa7299984/week-2-notification-system/layout.png)
 
 
 ---
