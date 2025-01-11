@@ -94,11 +94,11 @@ class DeleteResource:
     def delete_resource(self):
         print('Deleting resources created earlier...')
         print('-' * 40, '\n')
-        self.delete_bucket()
-        print('-' * 40, '\n')
         self.delete_glue_database()
         print('-' * 40, '\n')
         self.delete_athena_query_results()
+        print('-' * 40, '\n')
+        self.delete_bucket()
 
 
 if __name__ == "__main__":
