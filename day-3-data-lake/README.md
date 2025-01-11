@@ -9,6 +9,12 @@ Uploads sample NBA data (JSON format) to the S3 bucket.
 Creates an AWS Glue database and an external table for querying the data.
 Configures Amazon Athena for querying data stored in the S3 bucket.
 
+You can watch it on [YouTube](https://youtu.be/XXX)
+
+## **Technical Architecture**
+![data_lake](https://raw.githubusercontent.com/akinolu52/30-days-devops/refs/heads/main/day-3-data-lake/data-lake.png)
+
+
 # Prerequisites
 Before running the script, ensure you have the following:
 
