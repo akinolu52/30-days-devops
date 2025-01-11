@@ -21,7 +21,7 @@ class S3:
         )
 
     def does_bucket_exist(self) -> bool:
-        """Check if bucket exists, if not create one"""
+        """Check if the bucket exists"""
         try:
             self.s3.head_bucket(Bucket=self.bucket_name)
             return True
