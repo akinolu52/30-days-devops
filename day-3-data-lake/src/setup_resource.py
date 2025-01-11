@@ -133,7 +133,6 @@ class SetupResource:
         except requests.exceptions.RequestException as e:
             print(f'Error while fetching loading nba players data: {e}')
             return None
-        pass
 
     def upload_to_s3(self, data) -> bool:
         """Save JSON file to S3 bucket"""

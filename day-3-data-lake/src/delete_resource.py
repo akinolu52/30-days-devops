@@ -17,7 +17,6 @@ class DeleteResource:
         self.s3_client = boto3.client('s3', region_name=self.region)
         self.glue_client = boto3.client('glue', region_name=self.region)
 
-
     def does_bucket_exist(self) -> bool:
         """Check if the bucket exists"""
         try:
